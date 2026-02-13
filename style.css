@@ -7,11 +7,12 @@
 body {
     background-color: #FFE4E8;
     font-family: 'Nunito', sans-serif;
-    min-height: 100vh;
+    min-height: 100dvh;
     display: flex;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: auto;
     background-image:
         radial-gradient(circle at 15% 85%, #ffb3c1 0%, transparent 40%),
         radial-gradient(circle at 85% 15%, #ff8fa3 0%, transparent 40%),
@@ -54,7 +55,7 @@ body {
     position: relative;
     z-index: 1;
     text-align: center;
-    padding: 40px 20px;
+    padding: 40px 20px 40px;
 }
 
 h1 {
